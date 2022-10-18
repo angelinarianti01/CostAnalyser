@@ -1,9 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-// @route    POST Source Program
-// @desc     Run the source program
-// @access   Public
+// @route    POST /
 router.post('/', (req, res) => {
   const orders = req.body.orders;
   let message = '';
